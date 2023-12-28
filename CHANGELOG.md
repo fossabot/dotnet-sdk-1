@@ -1,5 +1,37 @@
 # Changelog
 
+## [2.0.0](https://github.com/open-feature/dotnet-sdk/compare/v1.3.1...v2.0.0) (2023-12-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add support for provider shutdown and status. ([#158](https://github.com/open-feature/dotnet-sdk/issues/158))
+
+### ✨ New Features
+
+* Add dx to catch ConfigureAwait(false) ([#152](https://github.com/open-feature/dotnet-sdk/issues/152)) ([9c42d4a](https://github.com/open-feature/dotnet-sdk/commit/9c42d4afa9139094e0316bbe1306ae4856b7d013))
+* Add support for provider shutdown and status. ([#158](https://github.com/open-feature/dotnet-sdk/issues/158)) ([24c3441](https://github.com/open-feature/dotnet-sdk/commit/24c344163423973b54a06b73648ba45b944589ee))
+
+
+### 🧹 Chore
+
+* add placeholder eventing and shutdown sections ([#156](https://github.com/open-feature/dotnet-sdk/issues/156)) ([5dfea29](https://github.com/open-feature/dotnet-sdk/commit/5dfea29bb3d01f6c8640de321c4fde52f283a1c0))
+* **deps:** update actions/checkout action to v4 ([#144](https://github.com/open-feature/dotnet-sdk/issues/144)) ([90d9d02](https://github.com/open-feature/dotnet-sdk/commit/90d9d021b227fba626bb99454cb7c0f7fef2d8d8))
+* **deps:** update actions/setup-dotnet action to v4 ([#162](https://github.com/open-feature/dotnet-sdk/issues/162)) ([0b0bb10](https://github.com/open-feature/dotnet-sdk/commit/0b0bb10419f836d9cc276fe8ac3c71c9214420ef))
+* **deps:** update dependency dotnet-sdk to v7.0.404 ([#148](https://github.com/open-feature/dotnet-sdk/issues/148)) ([e8ca1da](https://github.com/open-feature/dotnet-sdk/commit/e8ca1da9ed63df9685ec49a9569e0ec99ba0b3b9))
+* **deps:** update github/codeql-action action to v3 ([#163](https://github.com/open-feature/dotnet-sdk/issues/163)) ([c85e93e](https://github.com/open-feature/dotnet-sdk/commit/c85e93e9c9a97083660f9062c38dcbf6d64a3ad6))
+* fix alt text for NuGet on the readme ([2cbdba8](https://github.com/open-feature/dotnet-sdk/commit/2cbdba80d836f8b7850e8dc5f1f1790ef2ed1aca))
+* update spec release link ([a2f70eb](https://github.com/open-feature/dotnet-sdk/commit/a2f70ebd68357156f9045fc6e94845a53ffd204a))
+* updated readme for inclusion in the docs ([6516866](https://github.com/open-feature/dotnet-sdk/commit/6516866ec7601a7adaa4dc6b517c9287dec54fca))
+
+
+### 📚 Documentation
+
+* Add README.md to the nuget package ([#164](https://github.com/open-feature/dotnet-sdk/issues/164)) ([b6b0ee2](https://github.com/open-feature/dotnet-sdk/commit/b6b0ee2b61a9b0b973b913b53887badfa0c5a3de))
+* fixed the contrib url on the readme ([9d8939e](https://github.com/open-feature/dotnet-sdk/commit/9d8939ef57a3be4ee220bd21f36b166887b2c30b))
+* remove duplicate a tag from readme ([2687cf0](https://github.com/open-feature/dotnet-sdk/commit/2687cf0663e20aa2dd113569cbf177833639cbbd))
+* update README.md ([#155](https://github.com/open-feature/dotnet-sdk/issues/155)) ([b62e21f](https://github.com/open-feature/dotnet-sdk/commit/b62e21f76964e7f6f7456f720814de0997232d71))
+
 ## [1.3.1](https://github.com/open-feature/dotnet-sdk/compare/v1.3.0...v1.3.1) (2023-09-19)
 
 
